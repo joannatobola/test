@@ -2,7 +2,7 @@
 
 - [x]  2. System (aplikacja) używa tylko instancji RabbitMQ utrzymywanych przez Zespół Wsparcia, dedykowanych dla danego środowiska (DEV, BETA, PROD). Konsumpcja zdarzeń jest realizowana przez HAProxy, a publikowanie odbywa się albo przez lokalną instancję RabbitMQ albo przez HAProxy.
 
-- [ ] 3. Consumery (aplikacje konsumujące zdarzenia) są hostowane w osobnych procesach niezależnie od IIS.
+- [x] 3. Consumery (aplikacje konsumujące zdarzenia) są hostowane w osobnych procesach niezależnie od IIS.
 
 - [ ] 4. System używa wspólnego mechanizmu uwierzytelniania i autoryzacji – Heimdallr. Jeżeli system wymaga autoryzacji, to jest ona oparta na claim'ach. W wyjątkowych sytuacjach dopuszczalny jest brak uwierzytelniania.
 
