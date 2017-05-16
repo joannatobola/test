@@ -1,4 +1,4 @@
-- [ ]  1. Logi z części backendowej systemu są rejestrowane w ELK (Elasticsearch / Logstash / Kibana).
+- [x]  1. Logi z części backendowej systemu są rejestrowane w ELK (Elasticsearch / Logstash / Kibana).
 
 - [ ]  2. System (aplikacja) używa tylko instancji RabbitMQ utrzymywanych przez Zespół Wsparcia, dedykowanych dla danego środowiska (DEV, BETA, PROD). Konsumpcja zdarzeń jest realizowana przez HAProxy, a publikowanie odbywa się albo przez lokalną instancję RabbitMQ albo przez HAProxy.
 
