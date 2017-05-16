@@ -1,7 +1,5 @@
-test
-====
-#[checkbox:unchecked]
 
-[ ] lorem
-[x] ipsum
-[] dolor
+
+- [ ] lorem
+- [x] ipsum
+- [ ] dolor
